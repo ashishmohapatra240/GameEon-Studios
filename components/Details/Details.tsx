@@ -17,7 +17,7 @@ const Details = () => {
     <div>
       <Slider {...settings}>
         {/* Slide 1: Who We Are */}
-        <div className="p-8 bg-stone-50 rounded-lg">
+        <div className="px-8 py-24 bg-stone-50 rounded-lg">
           <div className="text-neutral-950 text-5xl font-bold mb-6 mx-20">
             Who We Are
           </div>
@@ -38,7 +38,7 @@ const Details = () => {
         </div>
 
         {/* Slide 2: Our Philosophy */}
-        <div className="p-8 bg-stone-50 rounded-lg ">
+        <div className="px-8 py-24 bg-stone-50 rounded-lg ">
           <div className="text-neutral-950 text-5xl font-bold mb-6 mx-20">
             Our Philosophy
           </div>
