@@ -10,9 +10,12 @@ const HeroSection = () => {
         autoPlay
         loop
         muted
+        playsInline
         src="videos/MumbaiGullies.mp4"
-      />
-      <div className="absolute inset-0 bg-black/40" />
+      >
+        Your browser does not support the video tag.
+      </video>
+      <div className="absolute inset-0 bg-black/60" />
       <TitleSection />
       <ButtonSection />
     </div>
