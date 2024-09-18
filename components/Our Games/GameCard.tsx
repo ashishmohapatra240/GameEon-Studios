@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import StoreButton from "react-mobile-store-button";
 
 interface GameCardProps {
@@ -15,12 +16,16 @@ const GameCard: React.FC<GameCardProps> = ({
   storeUrl,
 }) => {
   return (
-    <div className="p-6 bg-neutral-950 rounded-3xl border border-zinc-800 flex gap-5 items-center">
-      <img
-        className="w-40 h-32 rounded-2xl object-cover"
-        src={imageUrl}
-        alt={title}
-      />
+    <div className="p-6 bg-neutral-950 rounded-3xl border border-zinc-800 flex flex-col md:flex-row gap-5 items-center">
+      <div className="relative w-full md:w-60 h-40 md:h-48 rounded-2xl overflow-hidden">
+        <Image
+          src={imageUrl}
+          alt={title}
+          layout="fill"
+          objectFit="cover"
+          className="rounded-2xl"
+        />
+      </div>
       <div className="flex flex-col justify-between flex-1">
         <div>
           <div className="text-white text-xl font-medium">{title}</div>
@@ -28,9 +33,9 @@ const GameCard: React.FC<GameCardProps> = ({
         </div>
         <div className="mt-4 self-start">
           <StoreButton
-            store="android" // Use 'ios' for the App Store
+            store="android"
             url={storeUrl}
-            width={150} // Adjust the size as needed
+            width={150}
             height={50}
           />
         </div>

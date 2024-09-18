@@ -33,9 +33,7 @@ const OurGames = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-neutral-950">
       <div className="max-w-screen-lg w-full py-10 px-4">
-        <h2 className="text-center text-white text-4xl font-bold mb-10">
-          Our Games
-        </h2>
+        <h2 className="text-center text-white text-4xl font-bold mb-10">Our Games</h2>
         <div className="flex flex-col gap-6">
           {gameData.map((game, index) => (
             <GameCard
@@ -51,5 +49,4 @@ const OurGames = () => {
     </div>
   );
 };
-
 export default OurGames;
