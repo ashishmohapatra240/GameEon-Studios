@@ -14,19 +14,19 @@ const Details = () => {
   };
 
   return (
-    <div>
+    <div className="px-4 md:px-8 lg:px-16">
       <Slider {...settings}>
         {/* Slide 1: Who We Are */}
-        <div className="px-8 py-24 bg-stone-50 rounded-lg">
-          <div className="text-neutral-950 text-5xl font-bold mb-6 mx-20">
+        <div className="px-4 py-16 md:px-8 md:py-24 bg-stone-50 rounded-lg">
+          <div className="text-neutral-950 text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 mx-4 md:mx-8 lg:mx-20">
             Who We Are
           </div>
-          <div className="text-gray-900/60 text-base font-normal leading-tight mx-20">
+          <div className="text-gray-900/60 text-sm md:text-base font-normal leading-relaxed mx-4 md:mx-8 lg:mx-20">
             GameEon Studios is a leading game development company dedicated to
             creating high-quality & engaging games for players worldwide. With a
             team of experienced game developers & designers, we strive to push
-            the boundaries of what&apos;s possible in gaming, delivering
-            immersive experiences that captivate & entertain players.
+            the boundaries of what&apos;s possible in gaming, delivering immersive
+            experiences that captivate & entertain players.
             <br />
             <br />
             Our passion for gaming is evident in every project we undertake,
@@ -38,11 +38,11 @@ const Details = () => {
         </div>
 
         {/* Slide 2: Our Philosophy */}
-        <div className="px-8 py-24 bg-stone-50 rounded-lg ">
-          <div className="text-neutral-950 text-5xl font-bold mb-6 mx-20">
+        <div className="px-4 py-16 md:px-8 md:py-24 bg-stone-50 rounded-lg">
+          <div className="text-neutral-950 text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 mx-4 md:mx-8 lg:mx-20">
             Our Philosophy
           </div>
-          <div className="text-gray-900/60 text-base font-normal leading-tight mx-20">
+          <div className="text-gray-900/60 text-sm md:text-base font-normal leading-relaxed mx-4 md:mx-8 lg:mx-20">
             At GameEon Studios, we believe that gaming is not just a form of
             entertainment, but also a powerful tool for personal growth &
             community building. We are committed to creating games that
