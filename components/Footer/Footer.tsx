@@ -69,7 +69,7 @@ export default function Footer() {
       {/* Footer Bottom */}
       <div className="mt-12 border-t border-white/20 pt-6 text-center">
         <p className="text-white text-base font-normal">
-          Made with 💙 by Ashish Mohapatra
+          Designed and Developed 💙 by Ashish Mohapatra
         </p>
       </div>
     </footer>
