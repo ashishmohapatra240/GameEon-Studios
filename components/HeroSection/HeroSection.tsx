@@ -12,7 +12,7 @@ const HeroSection = () => {
         muted
         src="videos/MumbaiGullies.mp4"
       />
-      <div className="absolute inset-0 bg-black/80" />
+      <div className="absolute inset-0 bg-black/40" />
       <TitleSection />
       <ButtonSection />
     </div>
