@@ -1,5 +1,6 @@
 // components/Footer.tsx
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -20,14 +21,17 @@ export default function Footer() {
             Mumbai - 400059
           </p>
           <div className="flex space-x-4 mt-4">
-            <a href="#" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-white/60 flex items-center justify-center opacity-60 hover:opacity-100">
-              <FaFacebookF className="text-white" />
+            <a href="https://www.instagram.com/gameeonstudios" target="_blank" rel="noopener noreferrer" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-white/60 flex items-center justify-center opacity-60 hover:opacity-100">
+              <FaInstagram className="text-white" />
             </a>
-            <a href="#" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-white/60 flex items-center justify-center opacity-60 hover:opacity-100">
+            <a href="https://x.com/GameEon" target="_blank" rel="noopener noreferrer" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-white/60 flex items-center justify-center opacity-60 hover:opacity-100">
               <FaTwitter className="text-white" />
             </a>
-            <a href="#" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-white/60 flex items-center justify-center opacity-60 hover:opacity-100">
+            <a href="https://www.linkedin.com/company/gameeon/" target="_blank" rel="noopener noreferrer" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-white/60 flex items-center justify-center opacity-60 hover:opacity-100">
               <FaLinkedinIn className="text-white" />
+            </a>
+            <a href="https://youtube.com/@GameEonIndiaGames" target="_blank" rel="noopener noreferrer" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border border-white/60 flex items-center justify-center opacity-60 hover:opacity-100">
+              <FaYoutube className="text-white" />
             </a>
           </div>
         </div>
