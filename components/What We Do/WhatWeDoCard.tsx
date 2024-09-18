@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 interface WhatWeDoProps {
   title: string;
@@ -7,12 +7,16 @@ interface WhatWeDoProps {
   imageUrl: string;
 }
 
-const WhatWeDo: React.FC<WhatWeDoProps> = ({ title, description, imageUrl }) => {
+const WhatWeDo: React.FC<WhatWeDoProps> = ({
+  title,
+  description,
+  imageUrl,
+}) => {
   return (
     <div className="w-72 h-96 relative flex flex-col bg-neutral-950 rounded-2xl overflow-hidden border border-zinc-800 shadow-lg">
       <div className="relative w-full h-2/3">
         <Image
-          src={imageUrl || '/placeholder.png'}
+          src={imageUrl || "/placeholder.png"}
           alt={title}
           layout="fill"
           objectFit="cover"

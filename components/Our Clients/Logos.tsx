@@ -2,39 +2,39 @@ const LogoData = {
   Logos: [
     {
       name: "Gameloft",
-      url: "/images/Gameloft.png",
+      url: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/Gameloft.png",
     },
     {
       name: "Gamezop",
-      url: "/images/Gamezop.png",
+      url: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/Gamezop.png",
     },
     {
       name: "Gamezy",
-      url: "/images/Gamezy.png",
+      url: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/Gamezy.png",
     },
     {
       name: "Glance",
-      url: "/images/Glance.png",
+      url: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/Glance.png",
     },
     {
       name: "Moonee",
-      url: "/images/Moonee.png",
+      url: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/Moonee.png",
     },
     {
       name: "Sayollo",
-      url: "/images/Sayollo.png",
+      url: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/Sayollo.png",
     },
     {
       name: "Winzo",
-      url: "/images/Winzo.png",
+      url: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/Winzo.png",
     },
     {
       name: "App Land",
-      url: "/images/App Land.png",
+      url: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/App Land.png",
     },
     {
       name: "Crazy Labs",
-      url: "/images/CrazyLabs.png",
+      url: "https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/CrazyLabs.png",
     },
   ],
 };

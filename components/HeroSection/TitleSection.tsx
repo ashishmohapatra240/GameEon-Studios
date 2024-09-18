@@ -5,7 +5,7 @@ const TitleSection = () => (
     <Image
       height={200}
       width={200}
-      src="/images/mg-logo.png"
+      src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/mg-logo.png"
       alt="Mumbai Gullies"
       className="h-auto w-auto"
     />
