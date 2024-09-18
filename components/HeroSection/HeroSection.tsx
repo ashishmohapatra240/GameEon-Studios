@@ -10,8 +10,9 @@ const HeroSection = () => {
         autoPlay
         loop
         muted
+        preload="auto"
         playsInline
-        src="videos/MumbaiGullies.mp4"
+        src="https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/videos/MumbaiGullies.mp4"
       >
         Your browser does not support the video tag.
       </video>
