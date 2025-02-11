@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: '/images/og.png',
+        url: 'https://cdn.jsdelivr.net/gh/ashishmohapatra240/GameEon-Studios/public/images/og.png',
         width: 1200,
         height: 630,
         alt: 'GameEon Studios',
