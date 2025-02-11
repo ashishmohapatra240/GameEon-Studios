@@ -10,14 +10,15 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleNavigation = (item: string) => {
-    const path = item === "Home" ? "/" : `/${item.toLowerCase()}`;
+    const path = item === "Home" ? "/" : "/";
     router.push(path);
     setSelected(item);
     setIsMenuOpen(false);
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full h-16 px-4 md:px-[100px] flex justify-between items-center z-10">
+    <div className="fixed top-0 left-0 w-full h-16 px-4 md:px-[100px] flex justify-between items-center z-10
+    ">
       <div className="text-white text-xl font-semibold whitespace-nowrap">GameEon Studios</div>
       <div className="md:hidden text-white text-2xl cursor-pointer" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         {isMenuOpen ? <FaTimes /> : <FaBars />}

@@ -6,6 +6,16 @@ import Footer from "@/components/Footer/Footer";
 export const metadata: Metadata = {
   title: "GameEon Studios",
   description: "GameEon Studios is a creative studio that creates games and other interactive experiences.",
+  openGraph: {
+    images: [
+      {
+        url: '/images/og.png',
+        width: 1200,
+        height: 630,
+        alt: 'GameEon Studios',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
